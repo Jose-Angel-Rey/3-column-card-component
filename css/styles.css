@@ -88,11 +88,22 @@
   margin: 60px 0px 0px;
   text-decoration: none;
   padding: 10px 20px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.card__btn:hover {
-color: transparent;
-background-color: #fff;
+.card .card__btn:hover {
+  color: var(--orange-card-bg-color);
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.card:nth-child(odd) .card__btn:hover {
+  color: var(--dark-cyan-card-bg-color);
+}
+.card:last-of-type .card__btn:hover {
+  color: var(--very-dark-cyan-card-bg-color);
+}
+.card__btn:active {
+  transform: scale(0.95);
+  background-color: #eee;
 }
 /* Attribution footer styles */
 .attribution {
@@ -103,11 +114,11 @@ background-color: #fff;
 }
 .attribution a {
   color: var(--orange-card-bg-color);
-  transition: color .5s;
+  transition: color 0.5s;
 }
 .attribution a:hover {
-    color: var(--dark-cyan-card-bg-color);
+  color: var(--dark-cyan-card-bg-color);
 }
 .attribution a:active {
-    color: var(--ver-dark-cyan-card-bg-color);
+  color: var(--ver-dark-cyan-card-bg-color);
 }

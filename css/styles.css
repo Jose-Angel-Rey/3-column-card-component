@@ -23,7 +23,6 @@
 
 /* Main container styles  */
 .main-container {
-  border: 1px solid magenta;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -43,7 +42,6 @@
 
 /* Cards styles */
 .cards-container {
-  border: 1px solid magenta;
   width: 90%;
   max-width: 400px;
   display: flex;

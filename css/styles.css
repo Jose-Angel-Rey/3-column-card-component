@@ -1,4 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 :root {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+
   /* Fonts */
   --title-font: "Big Shoulders Display", cursive;
   --content-font: "Lexend Deca", sans-serif;
@@ -12,6 +20,34 @@
   /* Text colors */
   --card-text-color: hsl(0, 0%, 95%);
   --paragraph-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.main-container {
+  border: 1px solid magenta;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sr-only {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -100000000;
+  overflow: hidden;
+}
+
+.cards-container {
+    border: 1px solid magenta;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  
 }
 
 .attribution {

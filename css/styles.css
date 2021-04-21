@@ -79,16 +79,30 @@
 }
 .card__btn {
   display: inline-block;
-  border: 2px solid var(--card-text-color);
   border-radius: 25px;
-  color: var(--card-text-color);
   font-size: 15px;
   margin: 60px 0px 0px;
   text-decoration: none;
   padding: 10px 20px;
   transition: all 0.5s;
 }
-.card .card__btn:hover {
+.card .card__btn {
+  color: var(--orange-card-bg-color);
+  background-color: #fff;
+}
+.card:nth-child(odd) .card__btn {
+  color: var(--dark-cyan-card-bg-color);
+}
+.card:last-of-type .card__btn {
+  color: var(--very-dark-cyan-card-bg-color);
+}
+.card__btn:hover {
+  background-color: transparent;
+  color: var(--card-text-color);
+  border: 2px solid var(--card-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* .card .card__btn:hover {
   color: var(--orange-card-bg-color);
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
@@ -98,10 +112,9 @@
 }
 .card:last-of-type .card__btn:hover {
   color: var(--very-dark-cyan-card-bg-color);
-}
+} */
 .card__btn:active {
   transform: scale(0.95);
-  background-color: #eee;
 }
 /* Attribution footer styles */
 .attribution {

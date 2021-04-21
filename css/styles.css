@@ -5,7 +5,6 @@
 }
 :root {
   scroll-behavior: smooth;
-  font-size: 62.5%;
 
   /* Fonts */
   --title-font: "Big Shoulders Display", cursive;

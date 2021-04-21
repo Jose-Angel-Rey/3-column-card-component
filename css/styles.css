@@ -98,4 +98,11 @@
 }
 .attribution a {
   color: var(--orange-card-bg-color);
+  transition: color .5s;
+}
+.attribution a:hover {
+    color: var(--dark-cyan-card-bg-color);
+}
+.attribution a:active {
+    color: var(--ver-dark-cyan-card-bg-color);
 }

@@ -9,6 +9,7 @@
   .card:last-of-type {
     border-radius: 0px 15px 15px 0px;
   }
+  /* Attribution styles */
   .attribution {
     position: absolute;
     bottom: 20px;

@@ -1,16 +1,24 @@
-:root{
-    /* Fonts */
-    --title-font: 'Big Shoulders Display', cursive;
-    --content-font: 'Lexend Deca', sans-serif;
+:root {
+  /* Fonts */
+  --title-font: "Big Shoulders Display", cursive;
+  --content-font: "Lexend Deca", sans-serif;
 
-    /* Background Colors */
-    --body-bg-color: hsl(0, 0%, 95%);
-    --orange-card-bg-color: hsl(31, 77%, 52%);
-    --dark-cyan-card-bg-color: hsl(184, 100%, 22%);
-    --very-dark-cyan-card-bg-color: hsl(179, 100%, 13%);
+  /* Background Colors */
+  --body-bg-color: hsl(0, 0%, 95%);
+  --orange-card-bg-color: hsl(31, 77%, 52%);
+  --dark-cyan-card-bg-color: hsl(184, 100%, 22%);
+  --very-dark-cyan-card-bg-color: hsl(179, 100%, 13%);
 
-    /* Text colors */
-    --card-text-color: hsl(0, 0%, 95%);
-    --paragraph-color: hsla(0, 0%, 100%, 0.75);
+  /* Text colors */
+  --card-text-color: hsl(0, 0%, 95%);
+  --paragraph-color: hsla(0, 0%, 100%, 0.75);
+}
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

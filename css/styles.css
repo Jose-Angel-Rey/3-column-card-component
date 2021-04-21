@@ -81,10 +81,10 @@
   display: inline-block;
   border-radius: 25px;
   font-size: 15px;
-  height:39px;
+  height:49px;
   margin: 60px 0px 0px;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 15px 25px;
   color: var(--orange-card-bg-color);
   background-color: #fff;
   transition: all 0.5s;
@@ -100,6 +100,7 @@
   color: var(--card-text-color);
   border: 2px solid var(--card-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  line-height:15px;
 }
 .card__btn:active {
   transform: scale(0.95);

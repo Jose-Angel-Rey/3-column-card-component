@@ -84,11 +84,9 @@
   margin: 60px 0px 0px;
   text-decoration: none;
   padding: 10px 20px;
-  transition: all 0.5s;
-}
-.card .card__btn {
   color: var(--orange-card-bg-color);
   background-color: #fff;
+  transition: all 0.5s;
 }
 .card:nth-child(odd) .card__btn {
   color: var(--dark-cyan-card-bg-color);

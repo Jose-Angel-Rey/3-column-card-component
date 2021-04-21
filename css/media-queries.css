@@ -1,9 +1,4 @@
-@media screen and (min-width: 1024px) {
-  /* Main container styles  */
-  /* .main-container {
-    min-height: 80vh;
-    height: 90vh;
-  } */
+@media screen and (min-width: 1010px) {
   /* Cards styles */
   .cards-container {
     max-width: 920px;

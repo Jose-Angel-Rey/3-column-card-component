@@ -7,7 +7,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://3-column-card-component-jose-angel-rey.vercel.app/)
+- Live Site URL: [URL here 🚀🚀](https://3-column-card-component-jose-angel-rey.vercel.app/)
 
 ### Built with
 

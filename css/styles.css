@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 50px 0px;
 }
 
 .sr-only {
@@ -55,7 +56,7 @@
   font-family: var(--content-font);
   width: 100%;
   max-width: 300px;
-  padding: 30px 40px;
+  padding: 50px;
 }
 .card:nth-child(odd) {
   background-color: var(--dark-cyan-card-bg-color);
@@ -66,17 +67,25 @@
   border-radius: 0px 0px 15px 15px;
 }
 .card__title{
-    margin: 25px 0px;
+    margin: 35px 0px;
     font-family: var(--title-font);
-    font-size: 30px;
+    font-size: 35px;
+    text-transform: uppercase;
 }
 .card__description{
     color: var(--paragraph-color);
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 15px;
+    line-height: 25px;
 }
 .card__btn{
+    display: inline-block;
+    border: 2px solid var(--card-text-color);
+    border-radius: 25px;
     color:var(--card-text-color);
+    font-size: 17px;
+    margin: 50px 0px 10px;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 .attribution {
   font-size: 11px;

@@ -40,16 +40,44 @@
 }
 
 .cards-container {
-    border: 1px solid magenta;
-    width: 90%;
-    max-width: 400px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-  
+  border: 1px solid magenta;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }
-
+.card {
+  background-color: var(--orange-card-bg-color);
+  border-radius: 15px 15px 0px 0px;
+  color: var(--card-text-color);
+  font-family: var(--content-font);
+  width: 100%;
+  max-width: 300px;
+  padding: 30px 40px;
+}
+.card:nth-child(odd) {
+  background-color: var(--dark-cyan-card-bg-color);
+  border-radius: 0px;
+}
+.card:last-of-type {
+  background-color: var(--very-dark-cyan-card-bg-color);
+  border-radius: 0px 0px 15px 15px;
+}
+.card__title{
+    margin: 25px 0px;
+    font-family: var(--title-font);
+    font-size: 30px;
+}
+.card__description{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    line-height: 22px;
+}
+.card__btn{
+    color:var(--card-text-color);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
